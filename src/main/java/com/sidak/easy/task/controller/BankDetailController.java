@@ -40,7 +40,7 @@ public class BankDetailController {
         return ResponseEntity.ok(bankDetailService.getAllBankDetails());
     }
 
-    @PostMapping("/upload-bank-details")
+    @PostMapping("/upload")
     public ResponseEntity<Map<String, String>> uploadBankDetails(
             @RequestParam("file") MultipartFile file, Model model) {
 

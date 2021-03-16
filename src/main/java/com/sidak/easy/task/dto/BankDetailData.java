@@ -39,10 +39,10 @@ public class BankDetailData implements Serializable {
     @CreditCardNumber
     private String cardNumber;
 
-    @CsvDate(value = "MM-yyyy", writeChronologyEqualsReadChronology = true)
+    @CsvDate(value = "yyyy-MM", writeChronologyEqualsReadChronology = true)
     @CsvBindByName
     @NotNull
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "MM-yyyy", timezone = "Asia/Kolkata")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM", timezone = "Asia/Kolkata")
     private Date expiryDate;
 
     public static BankDetailData toData(BankDetail bankDetail) {
