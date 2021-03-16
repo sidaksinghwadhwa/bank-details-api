@@ -33,3 +33,9 @@ target/classes/com/sidak/easy/task/service/BankDetailService.class
 target/classes/com/sidak/easy/task/service/BankDetailServiceImpl.class
 target/classes/META-INF/MANIFEST.MF
 .DS_Store
+*.prefs
+.project
+target/classes/file.csv
+target/classes/META-INF/maven/com.sidak.easy.task/bank-details-api/pom.properties
+target/classes/META-INF/maven/com.sidak.easy.task/bank-details-api/pom.xml
+.classpath
