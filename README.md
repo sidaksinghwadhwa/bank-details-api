@@ -5,3 +5,5 @@ git clone https://github.com/sidaksinghwadhwa/bank-details-api.git
 cd bank-details-api
 mvn clean install
 mvn spring-boot:run
+
+Demo CSV file in src/main/resoueces/File.csv
